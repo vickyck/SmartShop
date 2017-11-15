@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/appCompatButtonGoHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="5dp"
+            android:background="@color/colorTextHint"
+            android:text="Go Home" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/appCompatButtonSignout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="5dp"
+            android:background="@color/colorTextHint"
+            android:text="Sign out" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/appCompatTextViewContactUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Vikas Krishnan - +91 9611298540,
+                          Ram Megharaj - +91 9849311557,
+                          Dilep - +91 9949641912
+                          Anand +91 8095484482
+                          Farheen +91 784240136
+                          Sampoorna +91 8884890005
+                          Sadhana +91 8095281561" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</LinearLayout>
